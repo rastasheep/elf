@@ -1,0 +1,13 @@
+version: "2"
+services:
+   elf:
+     image: node:12.10.0
+     user: node
+     working_dir: /application
+     volumes:
+       - .:/application:cached
+     ports:
+       - 8080:8080
+       - 9229:9229
+       - 9221:9221
+     command: "yarn start"
