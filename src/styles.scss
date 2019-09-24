@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --color__white: #ffffff;
+  --color__light-blue: #eef3f9;
+  --color__blue: #555673;
+
+  --text-font: 13px/16px Camphor,Open Sans,Segoe UI,sans-serif;
+  --code-font: 13px/18px Source Code Pro,monospace;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "pnum";
+  font-feature-settings: "pnum";
+  font-variant-numeric: proportional-nums;
+}
